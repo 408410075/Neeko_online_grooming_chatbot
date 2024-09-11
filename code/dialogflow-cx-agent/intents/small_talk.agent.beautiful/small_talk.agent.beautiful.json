@@ -1,0 +1,9 @@
+{
+  "name": "b5865bbc-c1c5-4bde-bf40-765f9b00cd83",
+  "displayName": "small_talk.agent.beautiful",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}

@@ -1,0 +1,9 @@
+{
+  "name": "464a83e0-b679-4e0f-af53-6ff3b050869b",
+  "displayName": "small_talk.confirmation.cancel",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000
+}

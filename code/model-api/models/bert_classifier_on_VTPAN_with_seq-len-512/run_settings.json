@@ -1,0 +1,1 @@
+{"project": "modelmaker", "model_indicator": "bert_classifier", "seq_len": 512, "dataset_indicator": "VTPAN", "run_id": "2020-11-30_14-39-26__bert_classifier_on_VTPAN_with_seq-len-512", "data_dir": "datasets/VTPAN/", "run_dir": "resources/2020-11-30_14-39-26__bert_classifier_on_VTPAN_with_seq-len-512/"}

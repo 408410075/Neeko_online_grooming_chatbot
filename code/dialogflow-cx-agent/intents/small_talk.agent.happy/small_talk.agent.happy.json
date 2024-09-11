@@ -1,0 +1,9 @@
+{
+  "name": "c495a887-2b80-460a-b58c-a5453cee9b06",
+  "displayName": "small_talk.agent.happy",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}

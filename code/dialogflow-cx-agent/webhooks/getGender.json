@@ -1,0 +1,10 @@
+{
+  "name": "814ef7d6-be0d-4eae-a1d9-a6e09e4274b0",
+  "displayName": "getGender",
+  "genericWebService": {
+    "uri": "https://us-central1-neeko-bnop.cloudfunctions.net/neeko_dialogflow_webhook_gender"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

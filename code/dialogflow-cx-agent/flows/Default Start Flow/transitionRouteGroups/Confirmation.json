@@ -1,0 +1,38 @@
+{
+  "name": "a01c6c38-4d7b-4eec-89ea-979c02d77af3",
+  "displayName": "Confirmation",
+  "transitionRoutes": [ {
+    "intent": "small_talk.confirmation.no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Understood.", "Okay.", "I see.", "I understand.", "Okay then." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "18fe8e43-92d1-45f8-a3db-5240dd43193e"
+  }, {
+    "intent": "small_talk.confirmation.yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great!", "All right!", "Good!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "388e13c8-96d8-4819-bd9b-23afa4621cd1"
+  }, {
+    "intent": "small_talk.confirmation.cancel",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Alright, cancelled.", "Okay, cancelled.", "OK, that is forgotten now." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "61bfbb89-c58e-478e-8f68-a63d73f383e2"
+  } ]
+}

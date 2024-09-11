@@ -1,0 +1,47 @@
+{
+  "name": "24b153b0-8615-4c0b-aed6-2a1502f61186",
+  "displayName": "About the friend",
+  "form": {
+    "parameters": [ {
+      "displayName": "gender_s",
+      "entityType": "@gender_s",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "gender_o",
+      "entityType": "@gender_o",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "setParameterActions": [ {
+            "parameter": "gender_s",
+            "value": null
+          }, {
+            "parameter": "gender_o",
+            "value": null
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What kind of person is your online friend?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "eventHandlers": [ {
+    "targetPage": "Question1",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "getGender",
+      "tag": "getGender"
+    },
+    "name": "0873fc66-6d98-4a66-a4f4-ee7ba37cecd0"
+  } ],
+  "transitionRouteGroups": [ "Button Response", "Stop" ]
+}

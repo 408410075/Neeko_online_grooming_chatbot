@@ -1,0 +1,54 @@
+{
+  "name": "bd807f1a-2914-4a5f-a034-fe60fc846fc0",
+  "displayName": "Question2",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What makes you feel this way?", "Why do you think so?", "What would you do if $session.params.gender_s makes you feel uncomfortable?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "getGender",
+    "tag": "getGender"
+  },
+  "transitionRoutes": [ {
+    "intent": "i_dont_know",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's alright.", "It's alright.", "It's okay." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Question3",
+    "name": "09a70216-2108-4fcf-b4b0-8524f001afbf"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Question3",
+    "name": "0cfbebe9-9311-404c-911e-e10a194c2d8b"
+  }, {
+    "intent": "Yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Question3",
+    "name": "746d34a5-1a93-469c-975c-e0184d3c3258"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Question3",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "getGender",
+      "tag": "getGender"
+    },
+    "name": "082bc29a-20e8-4454-8145-24941e432dac"
+  } ],
+  "transitionRouteGroups": [ "Button Response", "Stop" ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "991fd8c2-b300-4ca0-b778-e940dba74d46",
+  "displayName": "Detection",
+  "form": {
+    "parameters": [ {
+      "displayName": "user_input",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "webhook": "Detection",
+            "tag": "exceed string length"
+          },
+          "name": "47635016-0a09-4e47-9618-f11c2a969595"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "No problem! Please send me the chat log you want to check." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "user_input",
+        "value": null
+      } ]
+    },
+    "targetPage": "Warning",
+    "name": "4bff47b3-2f90-4116-ba23-78ea59910e63"
+  } ]
+}

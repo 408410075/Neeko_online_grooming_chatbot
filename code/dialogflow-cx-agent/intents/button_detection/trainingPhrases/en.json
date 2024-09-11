@@ -1,0 +1,16 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "🔹 Grooming Detection",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Grooming Detection"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

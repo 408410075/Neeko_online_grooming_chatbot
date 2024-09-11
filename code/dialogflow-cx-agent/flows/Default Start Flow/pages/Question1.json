@@ -1,0 +1,29 @@
+{
+  "name": "5a559563-4676-49de-a387-5e58924f0c8d",
+  "displayName": "Question1",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Okay. I understand.", "Okay. I hear you." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Do you feel happy with $session.params.gender_o?", "How do you feel with $session.params.gender_o?", "Do you think $session.params.gender_s ever lied to you?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "eventHandlers": [ {
+    "targetPage": "Question2",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "dd02b948-0e6a-4122-bd77-9f59f3cde37b"
+  } ],
+  "transitionRouteGroups": [ "Button Response", "Stop" ]
+}

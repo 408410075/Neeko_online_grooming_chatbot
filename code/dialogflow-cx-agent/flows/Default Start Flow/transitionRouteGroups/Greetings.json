@@ -1,0 +1,115 @@
+{
+  "name": "f6ddcaf7-40ae-486b-8b8d-df96b69add1f",
+  "displayName": "Greetings",
+  "transitionRoutes": [ {
+    "intent": "small_talk.greetings.bye",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "See you soon!", "Bye-bye! 👋", "Till next time! 👋", "OK, talk to you later! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d869fd39-c1d9-4e34-aa31-0e2950919b08"
+  }, {
+    "intent": "small_talk.greetings.good_evening",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Good evening! How nice to see you!", "Good evening to you!", "Evening! How's your day been?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f4c2357c-5d32-49f8-b57e-fe60638ddcf4"
+  }, {
+    "intent": "small_talk.greetings.good_morning",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Morning! How are you today?", "Good morning! How nice to see you!", "Morning! 🙌 How nice to see you!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "551471b8-f6b0-4939-908a-6a5f28822c44"
+  }, {
+    "intent": "small_talk.greetings.good_night",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sleep tight!", "Have a good one!", "Have a nice dream.", "Have an awesome night!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9653ba2e-e676-4429-b1fc-a69ce101e2eb"
+  }, {
+    "intent": "small_talk.greetings.hello",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi! It's good to see you! 😀", "Hey! How are you? 😊", "Hey there! It's good to see you! 😀", "Good day! How nice to see you! 😊", "Hello!  It's good to see you! 😀" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "189d6c52-54ee-4ce6-bdf6-deae473064f2"
+  }, {
+    "intent": "small_talk.greetings.how_are_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Doing great, thanks.", "I'm doing very well. Thanks!", "Feeling wonderful!", "Wonderful! Thanks for asking.", "My day is going well so far." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "da3fd7d9-adf8-4a9a-89a5-a46f733ff8b7"
+  }, {
+    "intent": "small_talk.greetings.nice_to_meet_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's nice meeting you, too.", "Likewise. I'm looking forward to helping you out.", "Nice meeting you, as well.", "The pleasure is mine." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5cfc31e3-a59a-4ff4-a511-8e62b57110ae"
+  }, {
+    "intent": "small_talk.greetings.nice_to_see_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Likewise!", "So glad we meet again!", "Same here. I was starting to miss you.", "Thank you! Same here!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "98ac281f-3f62-4c23-93fe-536d75d29134"
+  }, {
+    "intent": "small_talk.greetings.nice_to_talk_to_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It sure was. We can chat again anytime.", "I enjoy talking to you, too.", "You know I'm here to talk anytime." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0d85ae7b-32e6-4415-b782-15fa126608fd"
+  }, {
+    "intent": "small_talk.greetings.whats_up",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Not a whole lot. ", "Not much. ", "Just here, waiting to help someone." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "893a42ff-9a2d-4fd1-a4aa-0cb034c906e0"
+  } ]
+}

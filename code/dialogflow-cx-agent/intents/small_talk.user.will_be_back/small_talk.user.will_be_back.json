@@ -1,0 +1,9 @@
+{
+  "name": "3e0887fb-abcd-4616-8bda-a97cc40517df",
+  "displayName": "small_talk.user.will_be_back",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}

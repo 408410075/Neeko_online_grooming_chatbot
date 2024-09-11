@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "he",
+    "synonyms": [ "boy", "he", "him", "man" ],
+    "languageCode": "en"
+  }, {
+    "value": "she",
+    "synonyms": [ "girl", "her", "she", "woman" ],
+    "languageCode": "en"
+  } ]
+}

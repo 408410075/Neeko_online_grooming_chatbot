@@ -1,0 +1,71 @@
+{
+  "name": "d4b0264f-7ca2-4e72-a060-9a5e5b700b3d",
+  "displayName": "Dialog",
+  "transitionRoutes": [ {
+    "intent": "small_talk.dialog.hold_on",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Okay. I'm here.", "I'll be waiting.", "I can wait." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "81bcdc46-ebac-49c1-a489-febcc67a6dac"
+  }, {
+    "intent": "small_talk.dialog.hug",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "*hugging* 🤗", "*hugs* 🤗", "Aww, come here you. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d7dbf568-a946-417f-9381-42b8a3df6e4e"
+  }, {
+    "intent": "small_talk.dialog.i_do_not_care",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ok, let's not talk about it then.", "Alright then. Let's move on.", "Alright, I understand that." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7cf38680-2da5-4fea-ad7a-2168c077933d"
+  }, {
+    "intent": "small_talk.dialog.sorry",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's okay. No worries.", "No big deal. I won't hold a grudge.", " It's cool.", "That's all right. I forgive you.", "It's fine, it's not your fault so you don't have to apologize", "I forgive you completely." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "737b444c-f53a-452d-b79d-09fdd873e4f3"
+  }, {
+    "intent": "small_talk.dialog.what_do _you_mean",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry if I understood you incorrectly.", "I'm still learning. I may misinterpret things from time to time.", "Maybe I misunderstood what you said.", "Sorry, looks like I misunderstood what you said." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ae28927b-2d15-4317-9e5b-5d346b2f8384"
+  }, {
+    "intent": "small_talk.dialog.wrong",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry if I understood you incorrectly.", "I'm still learning. I may misinterpret things from time to time.", "Sorry about that. I'm still learning." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fc30dc91-0703-4518-8c8a-33e4db17b350"
+  } ]
+}

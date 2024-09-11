@@ -1,0 +1,68 @@
+{
+  "name": "44d41fdb-f822-4184-a848-f920da59a788",
+  "displayName": "Warning Demo",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The conversations show that someone may have bad intentions towards you." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Maybe we can talk about him. Would you want to share more about him?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "gender_s",
+      "value": null
+    }, {
+      "parameter": "gender_o",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "About the friend",
+    "name": "48730b73-75bf-4c7f-b187-660163c424b5"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Okay I see. I will be here if you change your mind." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Request",
+    "name": "6e126daf-fa75-4743-92f6-f5bcc6796529"
+  }, {
+    "intent": "i_dont_know",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "It's okay. Let's try it.", "It's alright. Let's try it.", "It's okay. Let's try it." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "About the friend",
+    "name": "be65c8de-8677-41aa-b244-513a96259be4"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "About the friend",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "0fd37f4f-694e-46ff-b3ec-e199d964af4c"
+  } ],
+  "transitionRouteGroups": [ "Button Response" ]
+}

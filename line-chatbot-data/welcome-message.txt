@@ -1,0 +1,18 @@
+Hello {Nickname} ! I am Neeko (waving hand) . It's great to meet you!
+
+#
+
+I am here to help you with following things. (hand pointing down)
+
+(small yellow diamond) Online Grooming Detection (small yellow diamond)
+You can send me a chat log with someone. If it is detected as "Grooming", I will give you some reminders and ask questions to help you think more clearly.
+
+(small pink diamond) Conversation Demo (small pink diamond) 
+Experience the conversation Neeko will have with you when the system detects your conversation with someone else as "Grooming".
+
+(lightbulb) You can rest assured that all your information is kept confidential and only used for academic purposes.
+
+#
+
+You can click the menu below to start or chat with me (moon grin)
+

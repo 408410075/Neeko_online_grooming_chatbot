@@ -1,0 +1,65 @@
+{
+  "name": "5e19a870-2ad7-4be1-9b57-758a016a5427",
+  "displayName": "Warning",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Detection",
+    "tag": "detect",
+    "setParameterActions": [ {
+      "parameter": "gender_s",
+      "value": null
+    }, {
+      "parameter": "gender_o",
+      "value": null
+    } ],
+    "returnPartialResponses": true
+  },
+  "transitionRoutes": [ {
+    "intent": "Yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm glad to hear that." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "About the friend",
+    "name": "f10c83b0-5f41-4d42-aa73-b76f7042c31d"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Okay I see. I will be here if you change your mind." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Request",
+    "name": "4bdb7f18-28bf-428e-aa03-baa57898fcf8"
+  }, {
+    "intent": "i_dont_know",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's alright. Let's try it.", "It's alright. Let's try it.", "It's okay. Let's try it." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "About the friend",
+    "name": "d3788f6f-1e0c-4491-a29f-18cea4b0cdb6"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "About the friend",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "71844059-1646-4a6b-94d3-5df88d7839d6"
+  } ],
+  "transitionRouteGroups": [ "Button Response" ]
+}

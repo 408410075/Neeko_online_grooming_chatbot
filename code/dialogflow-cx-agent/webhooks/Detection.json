@@ -1,0 +1,10 @@
+{
+  "name": "45932bc5-12f0-45fb-bb7a-44a71a903aa4",
+  "displayName": "Detection",
+  "genericWebService": {
+    "uri": "https://us-central1-neeko-bnop.cloudfunctions.net/neeko_dialogflow_webhook_line"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

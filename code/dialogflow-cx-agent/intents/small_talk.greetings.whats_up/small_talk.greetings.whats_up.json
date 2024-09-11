@@ -1,0 +1,9 @@
+{
+  "name": "a06c94da-5b3a-4dc7-b99e-f93d9d7ce2f3",
+  "displayName": "small_talk.greetings.whats_up",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}

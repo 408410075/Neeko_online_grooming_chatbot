@@ -1,0 +1,19 @@
+{
+  "name": "53a3fc88-8655-4d48-a473-7daf8d473af1",
+  "displayName": "Button Response",
+  "transitionRoutes": [ {
+    "intent": "button_demo",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Warning Demo",
+    "name": "6f713c2e-f84e-4363-a40b-dcd6500d5b5c"
+  }, {
+    "intent": "button_detection",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Detection",
+    "name": "bada328c-82db-42f5-bac4-2dfe91e92d8b"
+  } ]
+}

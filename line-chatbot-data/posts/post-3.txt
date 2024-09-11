@@ -1,0 +1,13 @@
+【 👉 What Is Chatbots 】
+A chatbot is a computer program that simulates human speech. People can communicate with it in text or voice like talking to a real person. For example, the voice assistant Siri is a voice chatbot.
+
+【 👉 How We Use Chatbots To Prevent Online Grooming 】
+The occurrence of online grooming is traceable! By interpreting the chat patterns of new online friends, we can automatically identify those with ulterior motives. We combine text chatbots with an online grooming detection system. When we detect the risk of an online friend with bad intentions, chatbots will ask reflective questions to remind the child and stimulate him/her to think.
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+【 👉 什麼是聊天機器人 】
+聊天機器人是一種模擬人類話語的電腦程式，可以用文字或語音的方式與其溝通，如同與真人對話，語音助理 Siri 就是一個語音聊天機器人。
+
+【 👉 我們如何利用聊天機器人防止網路誘拐 】
+網路誘拐的發生其實是有跡可循的！透過了解陌生網友的聊天模式，我們能夠以自動化的方式辨識網路上的有心人士，我們將透過文字聊天機器人，結合網路誘拐的檢測系統，在檢測到陌生網友有不良意圖的風險時，聊天機器人會利用反思性的問題達到提醒與幫助思考的作用。

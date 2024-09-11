@@ -1,0 +1,1 @@
+{"model_indicator": "bert_classifier", "project": "modelmaker", "seq_len": 512, "dataset_indicator": "PANC", "run_id": "2020-11-30_15-06-54__bert_classifier_on_PANC_with_seq-len-512", "data_dir": "datasets/PANC/", "run_dir": "resources/2020-11-30_15-06-54__bert_classifier_on_PANC_with_seq-len-512/"}

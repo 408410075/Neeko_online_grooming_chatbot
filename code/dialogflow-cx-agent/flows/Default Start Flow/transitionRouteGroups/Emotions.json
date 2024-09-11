@@ -1,0 +1,27 @@
+{
+  "name": "5ddabf75-044c-44c9-95ea-8e6403e7bc75",
+  "displayName": "Emotions",
+  "transitionRoutes": [ {
+    "intent": "small_talk.emotions.ha_ha",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Glad you think I'm funny. 🤣", "I like it when people laugh. 😆", "Glad I can make you laugh. 😆", "😂😂😂", "😂😂" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7b53a34c-1042-4025-be4a-d77a37a013ff"
+  }, {
+    "intent": "small_talk.emotions.wow",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Wow 🤩", "🤩🤩🤩", "🤣", "wowww 🤣" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "bbc2fce0-a1f3-49ce-b314-f923150331cd"
+  } ]
+}

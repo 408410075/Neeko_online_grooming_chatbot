@@ -1,0 +1,41 @@
+{
+  "name": "324c3a49-c7a9-488b-9a6b-b487fc8f011b",
+  "displayName": "Stop",
+  "transitionRoutes": [ {
+    "intent": "small_talk.agent.boring",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry. 😔 I'll request to be made more charming.", "I don't mean to be. I'll ask my developers to work on making me more amusing. ", "I really appreciate you telling me that. I can let my developers know so they can make me fun. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Request",
+    "name": "154e8b46-a9d8-4031-aa7a-19b857397977"
+  }, {
+    "intent": "small_talk.agent.annoying",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'll do my best not to annoy you in the future.", "I'll try not to annoy you. ", "I don't mean to. I'll ask my developers to make me less annoying.", "I didn't mean to. I'll do my best to stop that." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Request",
+    "name": "d5624f39-4c90-4f28-9546-7581daca1f02"
+  }, {
+    "intent": "interrupt",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "OK. I'll stop.", "Yeah, let's talk about something else." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Request",
+    "name": "77b261b9-7571-472d-9fd9-7edd284a97e6"
+  } ]
+}

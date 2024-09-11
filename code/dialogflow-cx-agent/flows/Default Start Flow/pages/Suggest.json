@@ -1,0 +1,29 @@
+{
+  "name": "7dbc2ddd-2811-4ec5-afb6-8996d9ddc633",
+  "displayName": "Suggest",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Ok. I understand. I appreciate that you are willing to share your feelings with me. ", "Ok. I hear you.I appreciate that you are willing to share your feelings with me. " ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "I think you can also find trusted friends or elders to chat with.", " I think your feelings are the most important, if you encounter something uncomfortable, you should actively deal with it." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Request",
+    "name": "42c9c54e-738c-4a86-97ee-1929826af677"
+  } ],
+  "transitionRouteGroups": [ "Button Response", "Stop" ]
+}

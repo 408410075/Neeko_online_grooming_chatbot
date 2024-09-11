@@ -1,0 +1,39 @@
+{
+  "name": "d29634a8-0d73-46d6-9b66-5190966eed6d",
+  "displayName": "Question3",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you think $session.params.gender_s is a trustworthy person?", "Do you think $session.params.gender_s is someone who can continue to be a friend?", "Would you tell your parents that the risk of online grooming has been detected?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "No",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Suggest",
+    "name": "8abebe29-ba98-4361-a140-4cf8b7fdb11d"
+  }, {
+    "intent": "Yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Suggest",
+    "name": "482b6d2d-a8cb-4df3-8ea3-0bc256b7f50e"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Suggest",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "547489fc-8480-4a8c-ba88-dd2d4df1a3d8"
+  } ],
+  "transitionRouteGroups": [ "Button Response", "Stop" ]
+}

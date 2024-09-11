@@ -1,0 +1,47 @@
+{
+  "name": "aa84000f-871f-4dd9-8712-a988ffda841d",
+  "displayName": "Request",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "detection",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Detection",
+    "name": "836f3982-7693-4409-93f4-7c365abf7360"
+  }, {
+    "intent": "small_talk.appraisal.thank_you",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Glad to help. I'm here if you need me!", "My pleasure. If you need anything, I'm here!", "It my pleasure! I'm here for you, no matter what.", "That really means a lot to me. I'm happy to help!", "You're welcome. I'm here for you, no matter what." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "290a1020-75d4-42c9-b8bf-5379803ee924"
+  }, {
+    "intent": "small_talk.greetings.bye",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thanks for chatting with me today. Goodbye!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2316a49e-2ebb-4c75-a380-0ea845da9f5f"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "name": "b2e15a5b-2dd1-4bfb-bfdc-eed234fea905"
+  } ],
+  "transitionRouteGroups": [ "Confirmation", "Appraisal", "Agent", "Dialog", "Emotions", "Greetings", "Button Response", "User" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "b8943108-1157-42c3-80a6-e00a6eaf753f",
+  "displayName": "small_talk.greetings.good_night",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}
